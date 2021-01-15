@@ -7,3 +7,5 @@ names = ['Liam','Emma','Noah','Olivia','William','Ava','James','Isabella','Logan
 
 
 #Your code go here:
+filterlist = list(filter(lambda name:  str("am") in name  , names))
+print(filterlist)
